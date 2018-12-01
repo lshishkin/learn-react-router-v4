@@ -1,7 +1,7 @@
 import React, { Component, Fragment } from 'react';
 import {BrowserRouter, Link, Route,Switch} from "react-router-dom"
 import Writers from './Writers'
-import NotFound from './Errors/404'
+import {NotFound} from './Errors'
 
 export default class extends Component {
     constructor(props){
@@ -11,7 +11,7 @@ export default class extends Component {
         }
     }
 async componentDidMount() {
-    const writers = await (await fetch('http://localhost:3004/writers')).json()
+    const writers = await (await fetch('http://localhost:3004/writers?_embed=texts')).json()
     this.setState({writers})
 }
 
