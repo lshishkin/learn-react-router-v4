@@ -11,7 +11,7 @@ export default class extends Component {
         }
     }
 async componentDidMount() {
-    const writers = await (await fetch('http://localhost:3004/writers?_embed=texts')).json()
+    const writers = await (await fetch('https://sleepy-beach-45496.herokuapp.com/writers?_embed=texts')).json()
     this.setState({writers})
 }
 
