@@ -1,4 +1,4 @@
-#Simple SPA using react and react-router)
+# Simple SPA using react and react-router)
 
 Link to tutorial [here](https://www.youtube.com/watch?v=rIoflwHFd6o&list=PLcCp4mjO-z9_4Wak3Uq8dEWC6H1fbSNgL)
 
@@ -10,7 +10,7 @@ Paths are made with [REACT ROUTER](https://github.com/ReactTraining/react-router
 
 
 
-#Простенькое SPA с использованием react и react-router)
+# Простенькое SPA с использованием react и react-router)
 
 Ссылка на туториал [тут](https://www.youtube.com/watch?v=rIoflwHFd6o&list=PLcCp4mjO-z9_4Wak3Uq8dEWC6H1fbSNgL)
 
